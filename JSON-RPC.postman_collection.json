@@ -1,0 +1,46 @@
+{
+	"id": "edde5097-b7de-498e-993a-5422ffa2e648",
+	"name": "JSON-RPC",
+	"description": "",
+	"order": [
+		"beb75ad3-ff93-1a55-d7a1-da2f6da218db"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1510177574442,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "beb75ad3-ff93-1a55-d7a1-da2f6da218db",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:3000/",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "edde5097-b7de-498e-993a-5422ffa2e648",
+			"data": [],
+			"dataMode": "raw",
+			"name": "Invoke sayHello method",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1510177580471,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\"jsonrpc\": \"2.0\", \"method\": \"sayHello\", \"id\": 1}"
+		}
+	]
+}
